@@ -1,0 +1,111 @@
+{
+  "manifest_version": "1.0",
+  "client_min_version": "1.0",
+  "project_version": "3.2.1",
+  "timestamp": 1706745600,
+  
+  "ui": {
+    "window": {
+      "title": "Я Альфарий"
+    },
+    "header": {
+      "title": "Что? Да.",
+      "subtitle": "Гидра доминатус!"
+    },
+    "project_version": "3.2.1",
+    "fallback_color": "#1a1a2e",
+    "background": {
+      "image_url_b64": "aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS85T1ljZWZxRkFOSS9tYXhyZXNkZWZhdWx0LmpwZw==",
+      "sha256": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2",
+      "width": 1920,
+      "height": 1080,
+      "tiled": false
+    }
+  },
+
+  "tree": [
+    {
+      "path": "engine/core.dll",
+      "name": "СЛАВА ОМНИССИИ",
+      "description": "ИМПЕРАТОР ЗАЩИЩАЕТ",
+      "size_bytes": 84500000,
+      "required": true,
+      "component": "core",
+      "url_b64": "aHR0cHM6Ly9naXRodWIuY29tL3lvdXJvcmdyZXBvL3JlbGVhc2VzL2Rvd25sb2FkL3YzLjIuMS9jb3JlLnppcA==",
+      "sha256": "f1e2d3c4b5a69788695a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2"
+    },
+    {
+      "path": "engine/renderer.dll",
+      "name": "СЛАВА ВЕЛИЗАРИЮ КОУЛУ",
+      "description": "ЖИЛЛИМАН СЧИТАЕТ",
+      "size_bytes": 28456789,
+      "required": true,
+      "component": "core",
+      "url_b64": "aHR0cHM6Ly9naXRodWIuY29tL3lvdXJvcmdyZXBvL3JlbGVhc2VzL2Rvd25sb2FkL3YzLjIuMS9yZW5kZXJlci56aXA=",
+      "sha256": "e2f3d4c5b6a79887695a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f"
+    },
+    {
+      "path": "assets/textures/base.png",
+      "name": "СЛАВА АЛЬФАРИЮ",
+      "description": "Омегон следит",
+      "size_bytes": 215000000,
+      "required": true,
+      "component": "base_assets",
+      "url_b64": "aHR0cHM6Ly9naXRodWIuY29tL3lvdXJvcmdyZXBvL3JlbGVhc2VzL2Rvd25sb2FkL3YzLjIuMS9iYXNlX3RleHR1cmVzLnppcA==",
+      "sha256": "d3e4f5c6b7a89988695a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f"
+    },
+    {
+      "path": "1/2",
+      "name": "Ну такое",
+      "description": "КТО ЗДЕСЬ",
+      "size_bytes": 1200000000,
+      "required": false,
+      "component": "hd_textures",
+      "url_b64": "aHR0cHM6Ly9naXRodWIuY29tL3lvdXJvcmdyZXBvL3JlbGVhc2VzL2Rvd25sb2FkL3YzLjIuMS9oZF90ZXh0dXJlcy56aXA=",
+      "sha256": "c4d5e6f7a8b99988695a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f"
+    }
+  ],
+  
+  "components": [
+    {
+      "id": "1",
+      "name": "1",
+      "description": "Звуки перекатов",
+      "size_bytes": 84500000,
+      "required": true,
+      "url_b64": "aHR0cHM6Ly9leGFtcGxlLmNvbS9maWxlcy9lbmdpbmVfY29yZS56aXA=",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "2",
+      "name": "2",
+      "description": "А я Омегон :-)",
+      "size_bytes": 215000000,
+      "required": true,
+      "url_b64": "aHR0cHM6Ly9leGFtcGxlLmNvbS9maWxlcy9iYXNlX2Fzc2V0cy56aXA=",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "3",
+      "name": "3",
+      "description": "А я тоже Альфарий",
+      "size_bytes": 1200000000,
+      "required": false,
+      "url_b64": "aHR0cHM6Ly9leGFtcGxlLmNvbS9maWxlcy9oZF90ZXh0dXJlcy56aXA=",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "4",
+      "name": "СЫНЫ МОИ, ВЫ НЕ ОХУЕЛИ?",
+      "description": "ИМПЕРАТОР В ЗДАНИИ",
+      "size_bytes": 450000000,
+      "required": false,
+      "url_b64": "aHR0cHM6Ly9leGFtcGxlLmNvbS9maWxlcy92b2ljZV9ydS56aXA=",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+
+}
+
+
+
